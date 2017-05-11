@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<style type="text/css">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+</style>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+        <title>Login and Registration Form with HTML5 and CSS3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+		<script>
+				$("#botonenviar").click(function()
+				{alert("Enviado");
+				});
+		</script>
+    </head>
+    <header>
+    
+    
+     <h2>Bienvenidos a la web de noticias internacionales</h2>
+
+    </header>
+   
+	<div class="alert alert-success">
+    <strong>Success!</strong> Por favor mire las noticias sobre Londres.
+  </div>
+   
+ 
+       
+    
+        <div class="container" style="left: 78px; top: -4px; height: 150px">
+            <!-- Codrops top bar -->
+            <div class="codrops-top">
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+            <header style="left: -5px; top: -31px">
+                <h1><span lang="es">Introduce tus datos para mi web</span></h1>
+				
+				
+           
+							
+                <div id="container_demo" >
+                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper" style="right: -1px; top: -25px">
+                        <div id="login" class="animate form">
+                        
+                            <form  action="" autocomplete="on" method="post"> 
+                                <h1><span lang="es">Pedir datos</span></h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > name </label>
+									<input id="name" name="name" required="required" type="text" placeholder="your name"/>
+                                </p>
+                                
+                                <p> 
+                                	<label for="email" class="youmail" data-icon="u" > email </label>
+									<input id="email" name="email" required="required" type="text" placeholder="your email"/>
+                                </p>
+
+                                  	<label for="edad" class="uname" data-icon="u" >edad </label>
+									<input id="edad" name="edad" required="required" type="number" min="18" placeholder="edad" /> 
+                                </p>
+                                <p> 
+                                	<label for="poblacion" class="uname" data-icon="p"> poblacion </label>
+									<input id="poblacion" name="poblacion" required="required" type="text" placeholder="your city" />
+
+                            	</p>
+                            	
+                                <p class="login button"> 
+                                    <input type="submit" id="botonenviar" value="Enviar" /> 
+								</p>
+								
+                            </form>
+                        </div>
+
+                        
+						
+                    </div>
+                </div>  
+				 </header> 
+             <body> 
+           
+			
+			<nav class="codrops-demos">
+					&nbsp;&nbsp;&nbsp;
+    <ul>
+  		<li><a href="#">Inicio</a></li>
+  		<li><a href="home.html">Home</a></li>
+  		<li><a href="news.html">News</a></li>
+  		<li><a href="contact.html">Contact</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+   </nav>
+<aside>
+		<iframe src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Logo_El_Corte_Ingl%C3%A9s_por_Hernando.svg/2000px-Logo_El_Corte_Ingl%C3%A9s_por_Hernando.svg.png" width="500px"height="350px">
+		<p>Your browser does not support iframes.</p>
+		</iframe>
+</aside>
+    </body>
+    
+    <footer>
+   <h3 class="example6b">&copy; 2017 Curso.Todos los derechos reservados.</h3>
+
+</footer>
+
+
+ 
+</html>
